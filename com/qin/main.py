@@ -9,4 +9,5 @@ while(1):
         break
 
 cap.release
+
 cv.destroyAllWindows
