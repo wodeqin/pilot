@@ -36,7 +36,7 @@ while(1):
         # cv2.circle(image,((x+x+w)/2,(y+y+h)/2),w/2,(0,255,0),2)
         time.sleep(5)
 
-    cv2.imshow("Find Faces!", img)
+    #cv2.imshow("Find Faces!", img)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
